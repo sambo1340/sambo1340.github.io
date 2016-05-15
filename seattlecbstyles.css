@@ -1,0 +1,71 @@
+.wrapper {
+  text-align: center;
+  font-family: "Palatino Linotype", Palatino, serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.wrapper img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.wrapper p {
+  margin: 0 30% auto;
+  text-align: justify;
+}
+.wrapper form input[type="submit"]{
+  background-color: cornflowerblue;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid darkgray;
+  cursor: pointer;
+  cursor: hand;
+}
+
+Section {
+  
+}
+div::after {
+  content: "";
+  background: url("http://i.imgur.com/ulKlWnP.jpg");
+  background-size: cover;
+  opacity: 0.85;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+.mainNav li {
+  display: inline;
+  margin-right: 20px;
+}
+.mainNav a {
+  text-decoration: none;
+}
+
+ ul {
+  padding: 0px;
+}
+
+.locationbuttons form {
+  display: inline;
+}
+a:hover {
+  color: blue !important;
+}
+a:visited {
+  color: turquoise;
+}
+a {
+  color: cornflowerblue;
+}
+footer {
+  text-align: center;
+  margin: 0 20% auto;
+}

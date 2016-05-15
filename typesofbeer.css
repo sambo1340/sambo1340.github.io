@@ -1,0 +1,81 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+       margin: 0 auto;
+    }
+    header {
+        background-color: ;
+        padding: 5px;
+        font-size: 40px;
+        text-align: left;
+        display: block;
+        color: #00A99D;
+        font-family: 'Lobster', cursive;
+        text-shadow: 3px 3px 3px #F7931E,
+                     5px 5px 5px #B5441B;
+    }
+    nav {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+    nav ul {
+        padding: 0;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: #00A99D;
+        text-decoration: none;
+    }
+    a:hover {
+      color: #F7931E;
+    }
+    section {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 800px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+    img {
+        width: 700px;
+        height: auto;
+    }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: 333333;
+    }
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: B5441B;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: 333333;
+    }
